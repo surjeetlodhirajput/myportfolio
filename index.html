@@ -11,15 +11,122 @@
 </head>
 <body  class="home">
 <div class="main-bar">
+    <nav class="navbar">
+        <div class="logo">Surjeet</div>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <ul>
+            <li><a href="#introo">Intro</a></li>
+            <li><a href="#skills">Technologies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>    
 </div>
+
 <div class="container">
   <div id="introo" class="intro">
-  </div>
+    <div id="intro-lite">
+        <h1>Hello There 👋</h1>
+        <h3>I'm Surjeet Lodhi, a student currently studying 3rd year of<br> computer science in <a href="https://www.lpu.in" target="_blank">L.P.U.</a></h3><br>
+        <span id="down-line"></span>
+      </div>
+      <div id="my-image">
+        <img src="./media/pics/IMG_20200610_070814.jpg" alt="surjeet.jpg"  height="280px" width="280px" />
+      </div>
+    <div id="text-container">    <p>
+        I'm enthusiastic about tech in coding and learning new things about computers and what they can do. I've been dabbling with coding since roughly age of 18, until I started studying computer science at university at 19 where my interest really peaked. Take a peek at the projects I have done, or jump straight to my <a href="https://github.com/surjeetlodhirajput">github</a>. When I have time over I sometimes  answer questions in forums and helping people with code.
+      <br><br>  Other than coding I enjoy tinkering with computers and my homelab.I also love to attended hackathons where people and code meet togheter to solve solutions in a hastly manner.
+      </p>
+    </div>
+     
+</div>
   <!--div for the skill section-->
   <div id="skills">
+    <div id="languages">
+        <h2>Languages</h2><br><span></span><br>
+        <ul id="langu">
+          <li><img class="ski" src="./media/pics/logos/c++.png" ><h3>C++</h3></li>
+          <li><img class="ski" src="./media/pics/logos/python.png"><h3>PYTHON</h3></li>
+          <li><img class="ski" src="./media/pics/logos/download.png"><h3>CSS</h3></li>
+          <li><img class="ski"  src="./media/pics/logos/html.png"><h3>HTML</h3></li>
+          <li><img class="ski" src="./media/pics/logos/java.png"><h3>jAVA</h3></li>
+          <li><img class="ski" src="./media/pics/logos/js.png"><h3>JAVASCRIPT</h3></li>
+        </ul>
+      </div>
+      <div id="tools">
+        <h2>Tools</h2><br><span></span><br>
+        <ul id="tool">
+          <li><img class="ski" src="./media/pics/logos/dj.png"><h3>DJANGO</h3></li>
+          <li><img class="ski" src="./media/pics/logos/github.png"><h3>GITHUB</h3></li>
+          <li><img class="ski" src="./media/pics/logos/vs.png"><h3>VISUAL STUDIO</h3></li>
+    
+        </ul>
+      </div>
+    
     </div>
     <!--div for the projects-->
     <div id="projects">
+        <h2>PROJECTS</h2>
+      <span></span>
+      <ul id="ulOne">
+        <li>
+          <div class="card">
+            <img alt="cardImage" class="cardImage" src="./media/prjp/imagecomp.png"><div class="text">
+              I had created an app in python using <br>
+             which  we can compress the size of mobile images 
+              without affecting its quality.
+            </div>
+            <div class="downcard">
+              <img alt="python" src="./media/pics/logos/python.png" class="dimage" height="20px" width="20px"><a href="https://github.com/surjeetlodhirajput" class="code">code</a>
+            </div>
+          </div>
+          
+        </li >
+        <li >
+          <div class="card">
+            <img alt="cardImage" class="cardImage" src="./media/prjp/node.jfif"><div class="text">
+              I had created an chat app using nodejs<br>
+              and socket which can be used  for chatting by creating the rooms
+            </div>
+            <div class="downcard">
+              <img alt="python" src="./media/pics/logos/js.png" style="border-radius: 3px;" height="20px" width="20px"><a href="https://github.com/surjeetlodhirajput" class="code">code</a>
+            </div>
+          </div>
+          
+        </li>
+
+        <li>
+          <div class="card">
+            <img alt="cardImage" class="cardImage" src="./media/prjp/java.jfif"><div class="text">
+              I had created an app in java using <br>
+              we can extract the links either from webpage or whole website
+            </div>
+            <div class="downcard">
+              <img alt="python" src="./media/pics/logos/java.png" height="20px" width="20px"><a href="https://github.com/surjeetlodhirajput" class="code">code</a>
+            </div>
+          </div>
+          
+        </li>
+        </ul id="ulTwo">
+        <ul>
+        <li>
+          <div class="card">
+            <img alt="cardImage" class="cardImage" src="./media/prjp/java2.jfif"><div class="text">
+              I had created an app in using using <br>
+              we can extract the images either from webpage or whole website
+            </div>
+            <div class="downcard">
+              <img alt="python" src="./media/pics/logos/python.png" height="20px" width="20px"><a href="https://github.com/surjeetlodhirajput" class="code">code</a>
+            </div>
+          </div>
+          
+        </li>
+
+        
+        
+      </ul>
+      
     </div>
     <div id="project-discription">
         <div id="left-image">
@@ -31,7 +138,21 @@
         </div>
     </div>
     <div id="footer">
-      
+        <h2>Contact me</h2>
+        <div id="links">
+          <img id="git" src="./media/logos/github.png" height="50px" width="50px">
+          <img id="insta" src="./media/logos/insta.jfif" height="50px" width="50px">
+          <img id="linkdin" src="./media/logos/linkdin1.png" height="50px" width="50px">
+          <img id="copy" onclick="copyToClipboard('#cpy')" src="./media/logos/messages" height="50px" width="50px">
+        
+          <span id="msg"></span>
+        </div>
+        <div id="copyright">  &copy; Designed and Built by Surjeet Lodhi
+        </div>
+        <div id="last-update">
+  
+        </div>
+        <script src="../script.js"></script> 
     </div>
 </div>
 <script src="./load.js"></script>
