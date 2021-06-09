@@ -361,7 +361,111 @@ font-family:Arial, Helvetica, sans-serif;
 
 }
 
-/*end of project discription*/
+@media (max-width:1150px){
+    #intro-lite{
+        margin-left: 50px;
+    }
+    .intro>#text-container>p{
+        margin-left: 50px;
+    }
+    #my-image{padding-left: 10px;}
+    #projects{
+        padding-left: 40px;
+    }
+    .card{
+        height: auto;
+        width: 200px;
+    }
+    .cardImage{
+        height: 200px;
+    }
+    .downcard{
+        height: 50px;
+    }
+    .downcard>img{
+        margin-top: 25px;
+        margin-left: 6px;
+    }
+    .text{
+        height: 60px;
+        font-size: 12px;
+    }
+    .code{
+        font-size: 15px;
+        padding-left: 13px;
+        width: 30%;
+        height: 25px;
+        margin-top: 20px;
+    }
+    #project-discription{
+        height: 250px;
+    }
+    #left-image{
+        padding-left: 60px;
+    }
+    #left-image>img{
+        height: 250px;
+        width: 300px;
+    }
+    #right-text{
+        font-size: 20px;
+        height: 250px;
+        padding-left: 0;
+    }
+}
+@media (max-width:950px){
+    #intro-lite{
+        margin-left: 140px;
+    }
+    .intro>#text-container>p{
+        margin-left: 140px;
+    }
+    #my-image{padding-left: 70px;}
+    #projects{
+        padding-left: 130px;
+    }
+    .card{
+        height: 400px;
+        width: 350px;
+    }
+    .cardImage{
+        height: 300px;
+    }
+    .downcard{
+        height: 60px;
+    }
+    .downcard>img{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .text{
+        height: 90px;
+        font-size: 18px;
+    }
+    .code{
+        font-size: 19px;
+        padding-left: 15px;
+        width: 20%;
+        height: 30px;
+        margin-top: 15px;
+    }
+    #project-discription{
+        height: 400px;
+    }
+    #left-image{
+        padding-left: 12%;
+    }
+    #left-image>img{
+        height: 400px;
+        width: 510px;
+    }
+    #right-text{
+        font-size: 30px;
+        height: 400px;
+        padding-left: 10px;
+    }
+}
+
 @media (max-width:940px){
     nav ul {
         position: fixed;
@@ -464,6 +568,21 @@ font-family:Arial, Helvetica, sans-serif;
     #projects>span{
         width: 100%;
     }
+    .card{
+        height: 400px;
+        width: 350px;
+    }
+    .text{
+        height: 90px;
+        font-size: 20px;
+    }
+    .cardImage{
+        height: 300px;
+        width: 100%;
+    }
+    .downcard{
+        height: 70px;
+    }
     #projects>ul{
         display: inline;
     }
@@ -562,7 +681,7 @@ font-family:Arial, Helvetica, sans-serif;
     #project-discription{
         width: 100%;
         height: 250px;
-        margin-top: -55px;
+        margin-top: -30px;
     }
     #left-image{
         float: left;
@@ -621,7 +740,7 @@ font-family:Arial, Helvetica, sans-serif;
     #project-discription{
         width: 100%;
         height: 150px;
-        margin-top: -55px;
+        margin-top: -30px;
     }
     #left-image{
         float: left;
@@ -677,7 +796,7 @@ font-family:Arial, Helvetica, sans-serif;
     #project-discription{
         width: 100%;
         height: 150px;
-        margin-top: -55px;
+        margin-top: -30px;
     }
     #left-image{
         float: left;
@@ -707,4 +826,3 @@ font-family:Arial, Helvetica, sans-serif;
     }
     
 }
-/*making the more responsive*/
