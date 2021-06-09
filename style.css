@@ -536,6 +536,9 @@ font-family:Arial, Helvetica, sans-serif;
         margin-left: 40%;
         font-size: 35px;
     }
+    #languages>h2{
+    margin-left:30%;
+    }
     #languages>ul>li>h3,#tools>ul>li>h3{
     font-size: 30px;
     padding-left: 4%;
@@ -563,7 +566,7 @@ font-family:Arial, Helvetica, sans-serif;
     margin-left: 2px;   
     }
     #projects>h2{
-        margin-left: 37%;
+        margin-left: 30%;
     }
     #projects>span{
         width: 100%;
