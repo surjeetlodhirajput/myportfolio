@@ -88,7 +88,16 @@ float: right;
 width: 29%;
 align-content: center;
 padding-left: 70px;
+margin-top: -30px;
 }
+/*here after publish*/
+@media (min-width:1155px){
+    #left-image>img{
+        width: 440px;
+    }
+
+}
+/*here i change the content*/
 #my-image>img{
     border-radius: 100%;
 }
